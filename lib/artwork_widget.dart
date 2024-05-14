@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:monalisa/desciription_text.dart';
-
-
-class ArtworkWidget extends StatefulWidget {
-  const ArtworkWidget({super.key});
-  
-  @override
-  State<StatefulWidget> createState() => ArtworkWidgetState();
-}
+import 'package:monalisa/stateful_widget.dart';
 
 class ArtworkWidgetState extends State<ArtworkWidget> {
   bool _isFavorite = false;

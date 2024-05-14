@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monalisa/artwork_widget.dart';
+import 'package:monalisa/stateful_widget.dart';
 
 class MuseumApp extends StatelessWidget {
   const MuseumApp({super.key});
