@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:monalisa/desciription_text.dart';
-import 'package:monalisa/stateful_widget.dart';
+
+class ArtworkWidget extends StatefulWidget {
+  const ArtworkWidget({super.key});
+  
+  @override
+  State<StatefulWidget> createState() => ArtworkWidgetState();
+}
 
 class ArtworkWidgetState extends State<ArtworkWidget> {
   bool _isFavorite = false;
@@ -51,8 +57,8 @@ class ArtworkWidgetState extends State<ArtworkWidget> {
               onPressed: _onButtonPressed
               ),
                SizedBox(
-                width: 300,
-                height: 300,
+                width: 330,
+                height: 270,
                 child: SingleChildScrollView(
                   scrollDirection: Axis.vertical,
                   child: Text(
